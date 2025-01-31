@@ -1,0 +1,53 @@
+.addproducts {
+  background-color: #eaf4fe; /* Light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addproducts fieldset {
+  border: none;
+  padding: 0;
+}
+
+.addproducts label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #0056b3; /* Darker blue for text */
+}
+
+.addproducts input, 
+.addproducts select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.addproducts input:focus, 
+.addproducts select:focus {
+  outline: none;
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.addproducts .btn {
+  background-color: #007bff; /* Primary blue button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100%;
+}
+
+.addproducts .btn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

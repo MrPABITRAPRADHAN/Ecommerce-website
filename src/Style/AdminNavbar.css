@@ -1,0 +1,30 @@
+*{
+    margin: 0;padding: 0;
+}
+.AdminNavbar{
+    height: 80px;
+    width: 100%;
+    background: white;
+    color: #0af6e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+}
+.links .li{
+   font-size: 135%;
+  color: rgb(46, 46, 46);
+   margin: 0px 10px;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}

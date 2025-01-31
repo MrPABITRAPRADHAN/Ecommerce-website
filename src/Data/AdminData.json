@@ -1,0 +1,72 @@
+{
+  "Admin": [
+    {
+      "id": "101",
+      "name": "xyz",
+      "email": "xyz@gmail.com",
+      "password": "xyz@123"
+    },
+    {
+      "id": "101",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abc@123"
+    }
+  ],
+  "products": [
+    {
+      "id": "65ab",
+      "category": "Shoes",
+      "name": "Puma",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/s/u/k/-original-imahfrsrypdbxh3f.jpeg?q=70&crop=false",
+      "price": "1899",
+      "rating": "4.2",
+      "desc": "Unisex Badminton Smash Sprint Indoor Shoes"
+    },
+    {
+      "id": "ebc8",
+      "category": "Electronics",
+      "name": "Rockerz 450",
+      "image": "https://www.boat-lifestyle.com/cdn/shop/products/7499af44-9d7a-489c-80f0-51f7799289e4_600x.png?v=1673002682",
+      "price": "1899",
+      "rating": "4.8",
+      "desc": "Over Ear Bluetooth Headphones with Upto 15 Hours Playback, Adaptive Headband, 40mm Dynamic Driver, 300 mah Battery  Read more at: https://www.boat-lifestyle.com/products/rockerz-450"
+    },
+    {
+      "id": "eaa3",
+      "category": "Mobile",
+      "name": "TECNO Phantom V Fold 5G Black",
+      "image": "https://i0.wp.com/www.93mobiles.com/wp-content/uploads/2024/07/51XcGhZnjML._SL1280_.jpg?resize=600%2C600&ssl=1",
+      "price": "57999",
+      "rating": "4",
+      "desc": "Putting Forth The Tecno Phantom V Fold, An Advanced Folding Phone That Provides An Early Look At Mobile Technologies Of The Future. Its Flexible Amoled Display And Large Ultra ..."
+    },
+    {
+      "id": "219f",
+      "category": "",
+      "name": "puma",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40331968_1-puma-mens-radcliff-black-casual-sneakers.jpg",
+      "price": "5499",
+      "rating": "5",
+      "desc": "qqqqqqqqqq"
+    },
+    {
+      "id": "48f2",
+      "category": "",
+      "name": "puma",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40331968_1-puma-mens-radcliff-black-casual-sneakers.jpg",
+      "price": "5499",
+      "rating": "5",
+      "desc": "qqqqqqqqqq"
+    },
+    {
+      "id": "d7a1",
+      "category": "Shoes",
+      "name": "Puma",
+      "image": "https://www.bigbasket.com/media/uploads/p/l/40331965_1-puma-mens-unisex-perforated-low-white-running-shoes.jpg",
+      "price": "7599",
+      "rating": "4",
+      "desc": "white"
+    }
+  ]
+}

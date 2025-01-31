@@ -1,0 +1,98 @@
+/* Main container for the admin view */
+.AdminViewItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Individual product card */
+.sub_Item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sub_Item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Product name and category */
+.sub_Item h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.sub_Item h3 {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+/* Product image */
+.sub_Item img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Product description */
+.sub_Item p {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+/* Buttons */
+.sub_Item button {
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sub_Item .update {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.sub_Item .update:hover {
+  background-color: #0056b3;
+}
+
+.sub_Item .delete {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.sub_Item .delete:hover {
+  background-color: #a71d2a;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sub_Item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .AdminViewItems {
+    gap: 10px;
+  }
+}
