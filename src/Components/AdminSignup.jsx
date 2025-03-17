@@ -1,19 +1,25 @@
 import axios from 'axios'
 import '../Style/AdminSignup.css'
 import signupImg from '../images/shop.jpg'
-import React,{useState}  from 'react';
+import Adminlogin from './Adminlogin';
+
+import {useState}  from'react';
 const AdminSignup = () => {
 let {email, setEmail} = useState("")
 let {password, setPassword} = useState("")
 let {name, setName} = useState("")
 let {phone, setphone} = useState("")
 
+let data = {email, password, name, phone}
+
 const SignupSubmit = () =>{
-   axios.post('https://localhost:1000/Admin')
+   axios.post('http://localhost:1000/Admin', data)
    .then((res)=>{
+     console.log(res.data)
      alert("Signup successful")
    })
    .catch((rej)=>{
+    console.log(rej)
     console.log("Signup failed")
    })
 }
@@ -25,7 +31,7 @@ const SignupSubmit = () =>{
        <img src={signupImg} alt="img" />
        </div>
 
-      <form onSubmit={SignupSubmit}>
+      <form onSubmit={SignupSubmit} method='post' action={<Adminlogin/>}>
       <label htmlFor="">Name</label>
       <input type="text" placeholder='Enter name' value={name} onChange={(e)=>{setName(e.target.value)}} />
       <label htmlFor="">Email</label>

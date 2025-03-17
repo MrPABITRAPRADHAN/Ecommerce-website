@@ -8,9 +8,8 @@ import UpdateProducts from './UpdateProducts';
 import '../Style/AdminHomepage.css'
 const AdminHomePage = () => {
     return ( 
-        <div className="Adminhomepage" style={{height:"full", width:"100vw"}}>
+        <div className="Adminhomepage" style={{height:"100vh", width:"100vw"}}>
             <AdminNavbar/>
-             
           
            <Routes>
                <Route path='/' element={<AdminDashboard/>} />

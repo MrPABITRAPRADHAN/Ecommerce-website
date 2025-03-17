@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 // import './Styles/UpdateProducts.css'
 import axios from 'axios'
 import { toast } from 'react-toastify'
@@ -19,7 +19,7 @@ let [category,setCategory]= useState("")
 
     function updateItem(e){
         e.preventDefault()
-        axios.put(`https://localhost:30000/products/${param.id}`,data)
+        axios.put(`http://localhost:30000/products/${param.id}`,data)
         .then((res)=>{
             console.log(res);
             toast.success('Item updated hogaya')
@@ -34,7 +34,7 @@ let [category,setCategory]= useState("")
     let param = useParams()
     
 useEffect(()=>{
-    axios.get(`https://localhost:30000/products/${param.id}`)
+    axios.get(`http://localhost:30000/products/${param.id}`)
     .then((res)=>{
         console.log(data);
 

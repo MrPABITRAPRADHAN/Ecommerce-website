@@ -13,6 +13,14 @@
       "password": "abc@123"
     }
   ],
+  "User": [
+    {
+      "id": "201",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "user1@123"
+    }
+  ],
   "products": [
     {
       "id": "65ab",
@@ -42,15 +50,6 @@
       "desc": "Putting Forth The Tecno Phantom V Fold, An Advanced Folding Phone That Provides An Early Look At Mobile Technologies Of The Future. Its Flexible Amoled Display And Large Ultra ..."
     },
     {
-      "id": "219f",
-      "category": "",
-      "name": "puma",
-      "image": "https://www.bigbasket.com/media/uploads/p/l/40331968_1-puma-mens-radcliff-black-casual-sneakers.jpg",
-      "price": "5499",
-      "rating": "5",
-      "desc": "qqqqqqqqqq"
-    },
-    {
       "id": "48f2",
       "category": "",
       "name": "puma",
@@ -67,6 +66,15 @@
       "price": "7599",
       "rating": "4",
       "desc": "white"
+    },
+    {
+      "id": "5837",
+      "category": "Groceries",
+      "name": "atta",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQlG5McTL1ajv7Hm09kN1mB51FvAboo3E6Prwkldp3fjelIxCB39_RgdVDbl4UuxkFzr6L8FwGothp0N6fF7RR9B2taDHUxl302S-Mexa2lNZp7VIPnonwSTw&usqp=CAE",
+      "price": "500",
+      "rating": "5",
+      "desc": "qwer"
     }
   ]
 }

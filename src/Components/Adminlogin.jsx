@@ -16,7 +16,7 @@ const Adminlogin = () => {
 
   useEffect(() => {
     const fetchAdminData = async () => {
-      let res = await fetch('https://localhost:1000/Admin');
+      let res = await fetch('http://localhost:1000/Admin');
       let data = await res.json();
       setAdmin(data)
     }

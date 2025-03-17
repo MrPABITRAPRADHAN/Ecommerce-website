@@ -28,13 +28,12 @@ const AdminNavbar = () => {
             
             <Dropdown>
                 <Dropdown.Toggle variant="danger" id="dropdown-basic">
-                    Admin <i class="fa-solid fa-user"></i>
+        
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    <Dropdown.Item href="#/action-1">account</Dropdown.Item>
+                    <Dropdown.Item href="#/action-2">Logout</Dropdown.Item>
                 </Dropdown.Menu>
             </Dropdown>
         </div>

@@ -16,7 +16,7 @@ const AdminAddProducts = () => {
 
    function addProducts(e){
       e.preventDefault();
-      axios.post('https://localhost:1000/products',data)
+      axios.post('http://localhost:1000/products',data)
       .then((res)=>{
          console.log(res)
          toast.success("Data added successfully")

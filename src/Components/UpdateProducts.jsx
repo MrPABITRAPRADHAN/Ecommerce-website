@@ -101,7 +101,7 @@ function UpdateProducts(){
 
     function updateItems(e){
         e.preventDefault();
-        axios.put(`https://localhost:1000/Product/${param.id}`,data)
+        axios.put(`http://localhost:1000/Product/${param.id}`,data)
         .then((res)=>{
             console.log(res);
             toast.success("Item updated successfully")
@@ -114,7 +114,7 @@ function UpdateProducts(){
 
     let param = useParams()
     useEffect(()=>{
-        axios.get(`https://localhost:1000/Product/${param.id}`)
+        axios.get(`http://localhost:1000/Product/${param.id}`)
     .then((res)=>{
         console.log(res.data);
         setName(res.data.name)
