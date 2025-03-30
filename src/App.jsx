@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css';
 import Adminlogin from "./Components/Adminlogin";
 import Userlogin from "./user/Userlogin";
 import Landing from "./Components/Landing";
@@ -14,15 +15,16 @@ const App = () => {
         <div className="app">
             <BrowserRouter>
              <Routes>
-              <Route path="/allnotes" element={<Backend/>} />
-                <Route path="/" element={<Landing/>} />
+
+                <Route path="/allnotes" element={<Backend/>} />
+                {/* <Route path="/" element={<Landing/>} /> */}
                 <Route path="/adminlogin" element={<Adminlogin/>} />
                 <Route path="/adminsignup" element={<FormExample/>}></Route>
                 <Route path="/adminhomepage/*" element={<AdminHomePage/>}></Route>
-                
                 <Route path="/userlogin" element={<Userlogin/>}></Route>
                 <Route path="/usersignup" element={<Usersignup/>}></Route>
-                <Route path="/userhomepage/*" element={<Userhomepage/>}></Route>
+                {/* <Route path="/userhomepage/*" element={<Userhomepage/>}></Route> */}
+                <Route path="/*" element={<Userhomepage/>}></Route>
 
              </Routes>
             </BrowserRouter>
