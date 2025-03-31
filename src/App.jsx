@@ -8,6 +8,8 @@ import AdminHomePage from "./Components/AdminHomePage";
 import Userhomepage from "./user/Userhomepage";
 import Usersignup from "./user/Usersignup";
 import Backend from "./Backend";
+
+import UserAbout from "./user/UserAbout";
 // import Homepage from "./PropsDrilling/Homepage";
 
 const App = () => {
@@ -25,6 +27,8 @@ const App = () => {
                 <Route path="/usersignup" element={<Usersignup/>}></Route>
                 {/* <Route path="/userhomepage/*" element={<Userhomepage/>}></Route> */}
                 <Route path="/*" element={<Userhomepage/>}></Route>
+
+                <Route path="/userAbout" element={<UserAbout/>}></Route>
 
              </Routes>
             </BrowserRouter>
