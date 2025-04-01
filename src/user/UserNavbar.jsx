@@ -12,11 +12,11 @@ function UserNavbar() {
                 </div>
                 <div className="links">
                     <NavLink to='/' className='li'>Home</NavLink>
-                    <NavLink to='/' className='li'>About</NavLink>
-                    <NavLink to='/' className='li'>Products</NavLink> 
-                    <NavLink to='/' className='li'>Contact</NavLink>
+                    <NavLink to='/userAbout' className='li'>About</NavLink>
+                    <NavLink to='/userViewProducts' className='li'>Products</NavLink> 
+                    <NavLink to='/contact' className='li'>Contact</NavLink>
                     <Button variant="outline-warning">LogOut</Button>
-                    <NavLink to='/' className='li'><ShoppingCartIcon/>Cart</NavLink>
+                    <NavLink to='/userCart' className='li'><ShoppingCartIcon/>Cart</NavLink>
     
                 </div>
     
