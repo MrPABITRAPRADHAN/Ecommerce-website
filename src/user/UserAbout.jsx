@@ -1,8 +1,9 @@
-import React from 'react'
+import UserNavbar from './UserNavbar'
 
 function UserAbout() {
   return (
     <div>
+      <UserNavbar/>
       user about
     </div>
   )

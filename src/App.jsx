@@ -16,7 +16,7 @@ import UserCart from "./user/UserCart";
 
 const App = () => {
     return ( 
-        <div className="app">
+        <div className="app" style={{width:"100vw"}}>
             <BrowserRouter>
              <Routes>
 
